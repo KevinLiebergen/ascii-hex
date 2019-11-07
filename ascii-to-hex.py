@@ -6,7 +6,6 @@ splitted = list(text)
 hexed = ""
 
 for i in splitted:
-    #print('%' + hex(ord(i))[2:])
     hexed += '%' + hex(ord(i))[2:]
 
 print(hexed)
